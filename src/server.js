@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, "public")));
 console.log(__dirname);
 
 //*Setting
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 4000);
 
 export default function createServer() {
   app.listen(app.get("port"), () => {
