@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
-    "start": "npm i nodemon src/index.js --exec babel-node"
+    "start": "nodemon src/index.js --exec babel-node"
   },
   "keywords": [],
   "author": "",
@@ -25,9 +25,7 @@
     "mongoose": "^6.3.2",
     "morgan": "^1.10.0",
     "multer": "^1.4.4",
-    "pdf-creator-node": "^2.3.4"
-  },
-  "devDependencies": {
+    "pdf-creator-node": "^2.3.4",
     "nodemon": "^2.0.16"
   },
   "engines": {
