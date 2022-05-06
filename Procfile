@@ -1,1 +1,1 @@
-web:babel-node src/index.js
+web:src/index.js
