@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
     "heroku-postbuild": "npm install",
-    "start": "nodemon --exec babel-node src/index.js "
+    "start": "babel-node src/index.js "
   },
   "keywords": [],
   "author": "",
