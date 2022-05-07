@@ -15,7 +15,7 @@
     "@babel/core": "^7.17.10",
     "@babel/node": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
-    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
     "connect-history-api-fallback": "^1.6.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
