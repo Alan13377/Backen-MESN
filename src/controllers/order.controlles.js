@@ -35,7 +35,7 @@ export const readOrder = async (request, response) => {
 export const getOrders = async (request, response) => {
   try {
     const orders = await Order.find({ user: request.userId });
-    response.status(2000).json(orders);
+    response.status(200).json(orders);
   } catch (error) {
     return response.status(500).json({ message: error.message });
   }
